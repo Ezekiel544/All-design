@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.general-container{
+    /* border: 2px solid fuchsia; */
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/mobile/image-hero.jpg);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+}
+
+.my-container{
+ /* border: 2px solid green; */
+ height:40vh;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ color: white;
+}
+.container-div{
+    margin: 0% 10%;
+}
+.first-div{
+  /* border: 2px solid blue; */
+  width: 30%;
+  height: 80px;
+}
+.second-div{
+    /* border: 2px solid red; */
+    width: 50%;
+   height: 10vh;
+   font-weight: bold;
+   font-size: 20px;
+   gap: 15px;
+   display: flex;
+   justify-content: space-between;
+}
+.first-para{
+    border: 2px solid white;
+    color: white;
+    height: 40%;
+    /* padding-left: 20px;
+    padding-right: 25px; */
+    padding: 20px;
+    width: 30%;
+    font-size:55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para-div{
+    margin-top:10%;
+    /* border: 2px solid powderblue; */
+    display: flex;
+    gap: 40px;
+    justify-content: space-between                                                                                                                                          ;
+    position: relative;
+}
+.mother-div{
+    /* border: 2px solid slateblue; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-direction: column;
+    position: absolute;
+    padding-left:5%;
+    left: 56%;
+    bottom: 0%;
+    height: 70%;
+    background-color:white;
+}
+.first-child{
+    /* border: 2px solid green; */
+    font-size: 50px;
+}
+.second-child{
+    /* border: 2px solid red; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.our-creation{
+    margin-top: 10%;
+    margin-bottom: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+.my-h2{
+    font-size: 60px;
+}
+.first-button{
+ /* border: 1px solid gray; */
+ width: 18%;
+ font-size: 20px;
+ padding: 5px;
+ background-color: black;
+ color: white;
+}
+
+.my-first-flex{
+    /* border: 2px solid #000937; */
+    width: 80%;
+    margin-bottom: 10px;
+}
+.first-photo{
+    display: flex;
+   justify-content: space-between;
+    /* border: 5px solid red; */
+    height: 450px;
+      
+}
+.first_pics{
+    background-image: url(./images/desktop/image-deep-earth.jpg);
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    width: 24%;
+    
+    color: white;
+    background-repeat: no-repeat;
+ 
+}
+.first_pics p{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 50%;
+    padding: 20px;
+}
+.second_pics{
+    background-image: url(./images/desktop/image-night-arcade.jpg);
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    width: 24%;
+    color: white;
+    background-repeat: no-repeat;
+}
+.second_pics p{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 50%;
+    padding: 20px;
+}
+.third_pics{
+    background-image: url(./images/desktop/image-soccer-team.jpg);
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    width: 24%;
+    color: white;
+    background-repeat: no-repeat;
+}
+.third_pics p{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    /* width: 50%; */
+    padding: 20px;
+}
+.fourth_pics{
+    background-image: url(./images/desktop/image-grid.jpg);
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    width: 24%;
+    color: white;
+    background-repeat: no-repeat;
+}
+.fourth_pics p{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 50%;
+    padding: 20px;
+}
+.my-second-flex{
+    /* border: 1px solid blue; */
+    /* margin-top: 30%; */
+    border: none;
+}
+.second-photo{
+    display: flex;
+   justify-content: space-between;
+    height: 450px;
+    /* border: 2px solid red; */
+}
+.second_1_pics{
+    background-image: url(./images/desktop/image-from-above.jpg);
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    width: 24%;
+    color: white;
+    background-repeat: no-repeat;
+}
+.second_1_pics p{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    /* width: 50%; */
+    padding: 20px;
+}
+.second_2_pics{
+    background-image: url(./images/desktop/image-pocket-borealis.jpg);
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    width: 24%;
+    color: white;
+    background-repeat: no-repeat;
+}
+.second_2_pics p{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 50%;
+    padding: 20px;
+}
+.second_3_pics{
+    background-image: url(./images/desktop/image-curiosity.jpg);
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    width: 24%;
+    color: white;
+    background-repeat: no-repeat;
+}
+.second_3_pics p{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 50%;
+    padding: 20px;
+}
+.second_4_pics{
+    background-image: url(./images/desktop/image-fisheye.jpg);
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    width: 24%;
+    color: white;
+    background-repeat: no-repeat;
+}
+.second_4_pics p{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    /* width: 50%; */
+    padding: 20px;
+}
+.last-div{
+    /* border: 2px solid black; */
+    height:200px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.my-last-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    
+}
+.loops_nav{
+    display: flex;
+    gap: 20px;
+}
+.last-link{
+    display: flex;
+   justify-content: space-between;
+   padding-top: 15px;
+   
+    
+}
+.my-email{
+    width: 60%;
+    border: 2px solid green;
+}
+.my-last-para{
+    display: flex;
+    /* border: 2px solid blue; */
+    gap: 30px;
+    
+    
+}
+.parent-flex{
+    height: 80px;
+    width: 80%;
+    /* border: 2px solid white; */
+     
+}
